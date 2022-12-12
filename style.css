@@ -108,7 +108,7 @@ html::-webkit-scrollbar-thumb{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/backB.png) no-repeat;
+    /* background: url(images/v9qWC4.jpg) no-repeat; */
     background-size: cover;
     background-position: center center;
 }
@@ -117,6 +117,12 @@ html::-webkit-scrollbar-thumb{
     float: left;
     text-align: center;
     padding: 4rem;
+}
+.home img{
+    height: 500px;
+    padding: auto;
+    margin: auto;
+    display: block;
 }
 .home .homeContent h2{
     font-size: 7rem;
@@ -145,8 +151,105 @@ html::-webkit-scrollbar-thumb{
 .home .homeContent .home-btn button:hover{
     font-size: 2rem;
 }
+.rain {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background: url(images/v9qWC4.jpg) no-repeat; */
+    background-size: cover;
+    background-position: center center;
+}
+.rain img{
+    height: 500px;
+    padding: auto;
+    margin: auto;
+    display: block;
+}
+.rain .rainContent{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 4rem;
+}
+.rain .rainContent h2{
+    font-size: 7rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    line-height: 7rem;
+    color: var(--black);
+    text-shadow: var(--box-shadow);
+}
+.rain .rainContent p{
+    font-size: 1.8rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+.rain .rainContent .home-btn{
+    height: 3rem;
+}
+.rain .rainContent .rain-btn button{
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .7rem;
+    padding: .7rem 2.4rem;
+    cursor: pointer;
+}
+.rain .rainContent .rain-btn button:hover{
+    font-size: 2rem;
+}
+
 section{
     padding: 2rem 7%;
+}
+
+
+.soil {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* background: url(images/v9qWC4.jpg) no-repeat; */
+    background-size: cover;
+    background-position: center center;
+}
+.soil img{
+    height: 500px;
+    padding: auto;
+    margin: auto;
+    display: block;
+}
+.soil .soilContent{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 4rem;
+}
+.soil .soilContent h2{
+    font-size: 7rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    line-height: 7rem;
+    color: var(--black);
+    text-shadow: var(--box-shadow);
+}
+.soil .soilContent p{
+    font-size: 1.8rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
+.soil .soilContent .home-btn{
+    height: 3rem;
+}
+.soil .soilContent .soil-btn button{
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .7rem;
+    padding: .7rem 2.4rem;
+    cursor: pointer;
+}
+.soil .soilContent .soil-btn button:hover{
+    font-size: 2rem;
 }
 .heading{
     text-align: center;
